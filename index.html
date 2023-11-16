@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Nutricionista em Maceió, especialista em nutrição. Agende uma consulta para melhorar sua saúde.">
     <meta name="keywords" content="Nutricionista, Maceió, Consulta Nutricional, Saúde">
     <meta name="author" content="Nutri Regina Britto">
     <meta name="robots" content="index, follow">
-
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Nutri Regina Britto">
     <meta property="og:description" content="Nutricionista em Maceió, especialista em nutrição. Agende uma consulta para melhorar sua saúde.">
@@ -21,56 +19,34 @@
     <meta property="og:image" content="static/imgs/foto-nutri.png">
     <meta property="og:url" content="nutrireginabritto.com.br">
     <meta property="og:site_name" content="Nutri Regina Britto">
-
     <title>Nutri Regina Britto</title>
     <link rel="icon" href="static/imgs/melancia.png">
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
- 
     <div class="main-container flex justify-between items-center flex-col  z-10 ">
-        
         <section class="mt-4"> 
             <img src="static/imgs/logo.png" alt="Logo da nutricionista Regina" width="165">
         </section>
-        
         <section class="flex justify-arround  flex-col">
-            <nav class="menu-principal"> 
-                
-                <ul class="flex flex-col gap-4 justify-center">
-                
-                    <li class=" text-center p-4 bg-white border-pink-600 border-2 hover:bg-pink-600 hover:text-white text-pink-600  border rounded-xl cursor-pointer"> <a href="https://wa.me/5582988287425?text=Ol%C3%A1+Nutri+Regina+Britto%2C+vim+pelo+seu+link+e+quero+agendar+uma+consulta%21" class="decoration-none">Agende Agora</a></li>
-                    <li class=" text-center p-4 bg-white border-pink-600 border-2 hover:bg-pink-600 hover:text-white text-pink-600  border rounded-xl cursor-pointer" onclick="OpenModal()"> Clínicas</li>
-                    <li class=" text-center p-4 bg-white border-pink-600 border-2 hover:bg-pink-600 hover:text-white text-pink-600  border rounded-xl cursor-pointer">Sobre mim</li>
-                    
+            <nav class="menu-principal">   
+                <ul class="flex flex-col gap-4 justify-center" id="list-menu-principal">
                 </ul>
-            
             </nav>
-
             <nav class="menu-secundario mt-10 mb-4"> 
-                
                 <ul class="flex flex-row gap-4 justify-center">
-                    
                     <li class="hover:bg-amber-400 hover:text-white text-amber-400 text-center bg-white p-2 ps-4 pe-4 rounded-xl shadow-xl cursor-pointer"><a href="https://wa.me/5582988287425?text=Ol%C3%A1+Nutri+Regina+Britto%2C+vim+pelo+seu+link+e+quero+agendar+uma+consulta%21" class="decoration-none"> <i class="fa fa-whatsapp  "></i></a></li>
-                    <li class="hover:bg-amber-400 hover:text-white text-amber-400 text-center bg-white p-2 ps-4 pe-4 rounded-xl shadow-xl cursor-pointer"> <i class="fa fa-instagram" ></i></li>
-                    
-            
+                    <li class="hover:bg-amber-400 hover:text-white text-amber-400 text-center bg-white p-2 ps-4 pe-4 rounded-xl shadow-xl cursor-pointer"><a href="https://instagram.com/nutrii_reginabritto"><i class="fa fa-instagram" ></i></a></li>
                 </ul>
-            
             </nav>
-
         </section>
-       
     </div>
-    
     <div class="modal " id="modal-clinicas">
         <a href="https://www.google.com/maps/dir/-9.6678596,-35.7516062/fisio+mais+recovery/@-9.6687007,-35.7533445,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x7014fb8c569757f:0x7c544288785ee09f!2m2!1d-35.7499092!2d-9.6695385?entry=ttu"> FÍSIO + RECOVERY</a>
-        <a href="https://www.google.com/maps/uv?pb=!1s0x701457d0a0f5e13%3A0xd8cfa17892b5e876!3m1!7e115!4s%2Fmaps%2Fplace%2Fnutriclin%2F%40-9.6479153%2C-35.7060478%2C3a%2C75y%2C350.42h%2C90t%2Fdata%3D*213m4*211e1*213m2*211slDIzIMWv7gkejQ1ahQJIqA*212e0*214m2*213m1*211s0x701457d0a0f5e13%3A0xd8cfa17892b5e876%3Fsa%3DX%26ved%3D2ahUKEwiHhN3cwcKCAxVoLbkGHcxpDegQpx96BAhEEAA!5snutriclin%20-%20Pesquisa%20Google!15sCgIgAQ&imagekey=!1e2!2slDIzIMWv7gkejQ1ahQJIqA&hl=pt-BR&sa=X&ved=2ahUKEwiHhN3cwcKCAxVoLbkGHcxpDegQpx96BAhjEA0">NUTRICLIN </a>
+        <a href="https://www.google.com/maps/dir//harmony+trade+center/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x70145b70dbe90a5:0x66e4552f64aa649e?sa=X&ved=2ahUKEwiG99KrgsmCAxWcspUCHbrcADEQ9Rd6BAhAEAA">NUTRICLIN </a>
         <button type="button" id="btn-fechar-modal" onclick="FecharModal()"> voltar</button>
     </div>
- 
     <script src="static/main.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
