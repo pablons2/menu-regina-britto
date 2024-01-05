@@ -1,5 +1,4 @@
 
-
 const modal_clinicas= document.getElementById("modal-clinicas")
 
 const OpenModal = ()=>{
