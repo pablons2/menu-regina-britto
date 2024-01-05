@@ -28,7 +28,8 @@ const list_menu_principal = [
     },
     {
         "class": "text-center p-4 bg-white border-pink-600 border-2 hover:bg-pink-600 hover:text-white text-pink-600  border rounded-xl cursor-pointer",
-        "item_name": "Sobre mim"
+        "item_name": "Web Site",
+        "link": "/web_site.html"
     }
 ];
 
@@ -40,3 +41,12 @@ list_menu_principal.map((item) => {
     }
 });
 
+// Open and close sidebar
+function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
