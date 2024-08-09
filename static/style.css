@@ -7,18 +7,25 @@
 
 
 body{
-    background-image: url("imgs/foto-nutri.png");
-    background-position:bottom;
-    background-size: contain;
-    
+    background-color:black;
+    background-image: url(../static/imgs/detail.png);
+    background-position: bottom;
     background-repeat: no-repeat;
+    background-size: 100%;
+ 
 }
 .main-container{
     width: 100vw;
     height: 100vh;
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
     
 }
+
 
 .menu-principal,.menu-secundario{
     font-weight: 700;
@@ -46,7 +53,7 @@ body{
 }
 
 .modal>a{
-    width: 332px;
+    width: 90%;
     align-items: center;
     display: flex;
     justify-content: center;

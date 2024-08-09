@@ -17,20 +17,22 @@ const id_list_menu_principal = document.getElementById("list-menu-principal");
 
 const list_menu_principal = [
     {
-        "class": "text-center p-4 bg-white border-pink-600 border-2 hover:bg-pink-600 hover:text-white text-pink-600  border rounded-xl cursor-pointer",
-        "item_name": "Agende Agora",
+        "class": "text-center p-2 bg-white border-gray-300 border-2 hover:bg-pink-600 hover:text-white text-pink-400  h-[4rem] border rounded-[20rem] cursor-pointer w-[90%]",
+        "item_name": "Maceió",
         "link": "https://wa.me/5582988287425?text=Ol%C3%A1+Nutri+Regina+Britto%2C+vim+pelo+seu+link+e+quero+agendar+uma+consulta%21",
     },
     {
-        "class": "text-center p-4 bg-white border-pink-600 border-2 hover:bg-pink-600 hover:text-white text-pink-600  border rounded-xl cursor-pointer",
+        "class": "text-center p-2 bg-white border-gray-300 border-2 hover:bg-pink-600 hover:text-white text-pink-400  h-[4rem] border rounded-[20rem] cursor-pointer w-[90%]",
+        "item_name": "Piranhas",
+        "link": "https://wa.me/5582988287425?text=Ol%C3%A1+Nutri+Regina+Britto%2C+vim+pelo+seu+link+e+quero+agendar+uma+consulta%21",
+    },
+    {
+        "class": "text-center p-2 bg-white border-gray-300 border-2 hover:bg-pink-600 hover:text-white text-pink-400  h-[4rem] border rounded-[20rem] cursor-pointer w-[90%]",
         "item_name": "Clínicas",
         "onclick": "OpenModal()"
     },
-    {
-        "class": "text-center p-4 bg-white border-pink-600 border-2 hover:bg-pink-600 hover:text-white text-pink-600  border rounded-xl cursor-pointer",
-        "item_name": "Web Site",
-        "link": "/web_site.html"
-    }
+
+   
 ];
 
 list_menu_principal.map((item) => {
