@@ -1,67 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nutricionista em Maceió, especialista em nutrição. Agende uma consulta para melhorar sua saúde.">
-    <meta name="keywords" content="Nutricionista, Maceió, Consulta Nutricional, Saúde">
-    <meta name="author" content="Nutri Regina Britto">
-    <meta name="robots" content="index, follow">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Nutri Regina Britto">
-    <meta property="og:description" content="Nutricionista em Maceió, especialista em nutrição. Agende uma consulta para melhorar sua saúde.">
-    <meta property="og:image" content="static/imgs/foto-nutri.png">
-    <meta property="og:url" content="nutrireginabritto.com.br">
-    <!-- Open Graph Meta Tags for Instagram -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Nutri Regina Britto">
-    <meta property="og:description" content="Nutricionista em Maceió, especialista em nutrição. Agende uma consulta para melhorar sua saúde.">
-    <meta property="og:image" content="static/imgs/foto-nutri.png">
-    <meta property="og:url" content="nutrireginabritto.com.br">
-    <meta property="og:site_name" content="Nutri Regina Britto">
+    <title>Regina Britto | Nutricionista - Maceió e Piranhas</title>
+    <meta
+      name="description"
+      content="Acompanhe Regina Britto, nutricionista que transforma vidas através da nutrição. Atendimentos em Maceió, Piranhas e clínicas especializadas. Clique para pré-cadastro, localização e redes sociais."
+    />
+    <meta name="author" content="Regina Britto" />
+    <meta
+      name="keywords"
+      content="Nutricionista Maceió, Nutrição Piranhas, Regina Britto, Pré-cadastro Nutrição, Clínicas Nutricionista, Alimentação saudável, Saúde, Bem-estar"
+    />
 
-    <title>Nutri Regina Britto</title>
-    <link rel="icon" href="static/imgs/melancia.png">
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <!-- Open Graph (para compartilhamento em redes sociais) -->
+    <meta property="og:title" content="Regina Britto | Nutricionista" />
+    <meta
+      property="og:description"
+      content="Transformando vidas através da nutrição. Atendimentos em Maceió e Piranhas."
+    />
+    <meta
+      property="og:image"
+      content="https://nutrireginabritto.com.br/imagens/capa-og.jpg"
+    />
+    <meta property="og:url" content="https://nutrireginabritto.com.br/" />
+    <meta property="og:type" content="website" />
 
- 
-    <div class="main-container mt-2">
-        <div class="w-full flex justify-center items-center">
-            <img src="static/imgs/img-background.png" alt="foto da melhor nutri de Maceió Al" class="md:w-[600px] w-[220px]">
-        </div>
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/static/style.css" />
 
-        
-        
-        <nav class="menu-principal top-[-80px] relative w-full flex justify-center flex-col"> 
-                <div class="w-full flex justify-center items-center text-white items-center flex justify-center text-center flex-col"> 
-                    <span class=" text-[14pt]">Nutri <b class="text-pink-400" >Regina Britto</b> 
-                        </span> <span class=" text-[10pt] mb-2">transformando vidas através da nutrição</span> </div>
-                <ul class="mt-2 flex flex-col gap-6 justify-center  w-[100%] items-center" id="list-menu-principal">
-                </ul>
-                <!-- <div class="w-full items-center flex justify-center mt-[32px]">
-                    <img src="static/imgs/logo.png" alt="logo da nutri" class="w-[20%]">
-                </div> -->
-            </nav>
+    <!-- SEO extra -->
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#fff9f6" />
+  </head>
+  <body class="bg-[#fff9f6] text-center font-sans px-4 py-6">
+    <!-- Logo -->
+    <div class="flex flex-col items-center space-y-1">
+      <img
+        src="static/imgs/logo.png"
+        alt="Logo Regina Britto Nutritionista"
+        class="max-w-[300px] max-h-[300px] min-w-[200px] min-h-[200px] object-contain"
+      />
 
-           
-
-
-
-       
+      <span class="text-[#83907b] text-md font-bold">
+        Transformando vidas através da nutrição
+      </span>
     </div>
-    
-    <div class="modal bg-black " id="modal-clinicas">
-        <a href="https://www.google.com/maps/dir/-9.6678596,-35.7516062/fisio+mais+recovery/@-9.6687007,-35.7533445,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x7014fb8c569757f:0x7c544288785ee09f!2m2!1d-35.7499092!2d-9.6695385?entry=ttu"> FÍSIO + RECOVERY</a>
-        <a href="https://www.google.com/maps/dir//Harmony+Medical+Center/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x70145b70d74e3e1:0xad2f55daee5fe071?sa=X&ved=2ahUKEwiPxqqpucOCAxULs5UCHaKMA5UQ9Rd6BAgzEAA">NUTRICLIN </a>
-        <button type="button" id="btn-fechar-modal" class="text-white" onclick="FecharModal()"> voltar</button>
+    <!-- Foto -->
+    <div class="flex justify-center mt-6">
+      <img
+        src="static/imgs/regina.png"
+        alt="Regina Britto"
+        class="w-32 h-32 object-cover rounded-full border-4 border-white shadow-md"
+      />
     </div>
- 
+
+    <nav class="menu-principal flex flex-col mt-2 space-y-4">
+      <ul
+        class="flex flex-col mt-2 space-y-4 justify-center items-center"
+        id="list-menu-principal"
+      ></ul>
+    </nav>
+    <div class="flex justify-center space-x-6 mt-8 text-2xl text-[#5e2c35]">
+      <a
+        href="https://wa.me/5582988287425?text=Ol%C3%A1+Nutri+Regina+Britto%2C+vim+pelo+seu+link+e+quero+agendar+uma+consulta%21"
+        target="_blank"
+        aria-label="WhatsApp"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/nutrii_reginabritto/"
+        aria-label="Instagram"
+        target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <div
+      class="modal fixed inset-0 bg-black bg-opacity-70 flex-col justify-center items-center z-50 space-y-4 p-6"
+      id="modal-clinicas"
+    >
+      <a
+        href="https://www.google.com/maps/dir/-9.6678596,-35.7516062/fisio+mais+recovery/@-9.6687007,-35.7533445,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x7014fb8c569757f:0x7c544288785ee09f!2m2!1d-35.7499092!2d-9.6695385?entry=ttu"
+        class="bg-[#f8d9de] text-[#5e2c35] font-semibold py-4 px-6 rounded-full shadow hover:brightness-95 transition text-center w-[90%]"
+      >
+        FÍSIO + RECOVERY</a
+      >
+      <a
+        href="https://www.google.com/maps/dir//Harmony+Medical+Center/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x70145b70d74e3e1:0xad2f55daee5fe071?sa=X&ved=2ahUKEwiPxqqpucOCAxULs5UCHaKMA5UQ9Rd6BAgzEAA"
+        class="bg-[#f8d9de] text-[#5e2c35] font-semibold py-4 px-6 rounded-full shadow hover:brightness-95 transition text-center w-[90%]"
+        >NUTRICLIN
+      </a>
+      <button
+        type="button"
+        id="btn-fechar-modal"
+        class="text-white"
+        onclick="FecharModal()"
+      >
+        voltar
+      </button>
+    </div>
+    <!-- Social -->
+
     <script src="static/main.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/a2f31e6c3f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

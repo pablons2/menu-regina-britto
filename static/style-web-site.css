@@ -1,5 +1,15 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
 .bgimg {
   background-position: center;
   background-repeat: no-repeat;
@@ -7,13 +17,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   background-image: url('../static/imgs/foto-nutri.png');
   min-height: 100%;
 }
-.cursor-pointer{
-    cursor: pointer;
+.cursor-pointer {
+  cursor: pointer;
 }
-.cursor-pointer:hover{
-    opacity: 0.8;
-   
+.cursor-pointer:hover {
+  opacity: 0.8;
 }
-i:hover{
-    color: #DD205A;
+i:hover {
+  color: #dd205a;
 }
