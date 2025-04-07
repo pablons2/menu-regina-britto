@@ -14,7 +14,7 @@ const list_menu_principal = [
   {
     class:
       ' bg-[#f8d9de] text-[#5e2c35] font-medium py-4 rounded-full shadow-sm transition hover:brightness-95 w-[90%]  cursor-pointer',
-    item_name: 'F. de Pré Cadastro',
+    item_name: 'Formulário Pré Cadastro',
     link: 'https://form.jotform.com/243107544269660',
   },
   {
